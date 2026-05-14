@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output (regenerate with npm run build)
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & debug
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Editor / IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# TypeScript
+*.tsbuildinfo
+
+# Test / coverage (if you add these later)
+coverage/
